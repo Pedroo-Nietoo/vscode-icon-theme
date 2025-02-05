@@ -21,7 +21,7 @@ async function generateMarkdown() {
 
 		let markdownContent = "# Icon Previews\n\n";
 		markdownContent +=
-			"You can choose which icons to use from the [Library](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd9pSN/Symbols---File-Icons?node-id=20521%3A84115&t=PyBzZOlVG5TXyEdx-1):\n\n";
+			"You can choose which icons to use from the list below:\n\n"
 
 		const tableData = [["Name", "Preview"], ...icons.map((icon) => [icon.name, `![${icon.name}](${icon.path.replace(".svg", ".png")})`])];
 
