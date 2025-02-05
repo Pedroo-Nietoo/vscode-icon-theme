@@ -1,0 +1,14 @@
+# Build and dependency directories
+node_modules/
+out/
+dist/
+
+# VS Code-related files and directories
+.vscode-test/
+
+# Configuration and backup files
+src/flow-icon-theme.modified.json
+src/flow-icon-theme.bkp.json
+
+# Generated package files
+*.vsix

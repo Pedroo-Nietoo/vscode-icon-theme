@@ -1,0 +1,15 @@
+# Ignore VS Code-related directories
+.vscode/**
+.vscode-test/**
+
+# Ignore project configuration and metadata files
+.gitignore
+vsc-extension-quickstart.md
+
+# Ignore TypeScript and linting configuration files
+**/tsconfig.json
+**/.eslintrc.json
+
+# Ignore source maps and TypeScript files
+**/*.map
+**/*.ts
