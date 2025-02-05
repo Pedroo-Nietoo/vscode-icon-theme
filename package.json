@@ -1,5 +1,5 @@
 {
-	"name": "flow",
+	"name": "flow-icon-theme",
 	"displayName": "Flow Icons",
 	"description": "File icon theme for VSCode",
 	"version": "0.0.1",
@@ -44,7 +44,7 @@
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "flow",
+				"id": "flow-icon-theme",
 				"label": "Flow Icons",
 				"path": "./src/flow-icon-theme.modified.json",
 				"_watch": true
