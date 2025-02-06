@@ -13,10 +13,8 @@ const README_PATH = path.join(__dirname, "../preview/preview.md");
 
 async function generatePreviews() {
 	try {
-		// Ensure previews directory exists
 		await fs.mkdir(PREVIEWS_DIR, { recursive: true });
 
-		// Read all SVG files from icons directory recursively
 		const files = await getAllFiles(ICONS_DIR);
 		const previews = [];
 
@@ -26,16 +24,13 @@ async function generatePreviews() {
 			const relativePath = path.relative(ICONS_DIR, file);
 			const previewPath = path.join(PREVIEWS_DIR, relativePath.replace(".svg", ".png"));
 
-			// Ensure preview subdirectories exist
 			await fs.mkdir(path.dirname(previewPath), { recursive: true });
 
-			// Convert SVG to PNG
 			await sharp(file).resize(64, 64).png().toFile(previewPath);
 
 			previews.push([`![${relativePath}](${previewPath})`, relativePath]);
 		}
 
-		// Update README with preview table
 		const table = markdownTable([["Preview", "Icon"], ...previews]);
 		let readmeContent = await fs.readFile(README_PATH, "utf-8");
 		readmeContent = readmeContent.replace(
@@ -50,7 +45,6 @@ async function generatePreviews() {
 	}
 }
 
-// Helper to get all files recursively
 async function getAllFiles(dir) {
 	const files = await fs.readdir(dir, { withFileTypes: true });
 	const paths = [];

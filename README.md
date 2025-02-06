@@ -47,7 +47,7 @@ And here is an example using this setting:
 "flow.folders.associations": {
     "cat": "folder-yarn",
     "infra": "folder-api",
-    "schemas": "folder-purple"
+    "schemas": "folder-light-blue-outline"
 }
 ```
 

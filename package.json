@@ -1,6 +1,6 @@
 {
 	"name": "flow-icon-theme",
-	"displayName": "Flow Icons",
+	"displayName": "Flow Icon Theme",
 	"description": "File icon theme for VSCode",
 	"version": "0.0.1",
 	"publisher": "Pedroo-Nietoo",
@@ -45,14 +45,14 @@
 		"iconThemes": [
 			{
 				"id": "flow-icon-theme",
-				"label": "Flow Icons",
+				"label": "Flow Icon Theme",
 				"path": "./src/flow-icon-theme.modified.json",
 				"_watch": true
 			}
 		],
 		"configuration": {
 			"type": "object",
-			"title": "Flow Icons",
+			"title": "Flow Icon Theme",
 			"properties": {
 				"flow.hidesExplorerArrows": {
 					"type": "boolean",

@@ -12,7 +12,6 @@ function getPath() {
 	if (__dirname === "src") {
 		return path.join(__dirname, THEME_FILE);
 	}
-	// relative to the current file aka theme.js
 	return path.join(__dirname, "..", THEME_FILE);
 }
 
