@@ -57,4 +57,4 @@ And here is an example using this setting:
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Peroo-Nietoo/vscode-icon-theme/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Pedroo-Nietoo/vscode-icon-theme/raw/main/LICENSE) file for details.
