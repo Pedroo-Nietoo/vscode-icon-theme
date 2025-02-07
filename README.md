@@ -10,6 +10,11 @@ A file icon theme for VSCode
 
 </div>
 
+## Icon Preview
+
+You can preview the icons from the theme by reading the the [preview.md](./preview/preview.md) file.
+
+
 ## Configuration
 
 You can customize which files and folders icons are displayed by using the following settings:
@@ -50,11 +55,6 @@ And here is an example using this setting:
     "schemas": "folder-light-blue-outline"
 }
 ```
-
-## Icon Preview
-
-You can preview the icons by reading the the [preview.md](./preview/preview.md) file.
-
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Peroo-Nietoo/vscode-icon-theme/raw/main/LICENSE) file for details.

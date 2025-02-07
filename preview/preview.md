@@ -278,6 +278,7 @@ You can choose which icons to use from the list below:
 | rescript-interface         | ![rescript-interface](files/rescript-interface.png)                   |
 | robot                      | ![robot](files/robot.png)                                             |
 | rome                       | ![rome](files/rome.png)                                               |
+| routes                     | ![routes](files/routes.png)                                           |
 | ruby                       | ![ruby](files/ruby.png)                                               |
 | rust                       | ![rust](files/rust.png)                                               |
 | sanity                     | ![sanity](files/sanity.png)                                           |
